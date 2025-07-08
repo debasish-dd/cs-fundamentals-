@@ -1,0 +1,36 @@
+# Kernel in Operating System
+Kernel is a core compunent in OS. It manages softwere and hardware in a computer.
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/20250124124411692602/kernel.webp)
+
+- Facilitates communication between hardware and software.
+- Ensure efficient and smooth multitasking 
+- Manage system stability and prevents unauthorized resource access.
+## Types of Kernel
+### 1. Monolithic Kernel :
+Here all operating system services operate in **kernel space**. It has dependencies between systems components. It has huge lines of code which is complex.
+- **Advantages :** Efficient, Tight Integration, low latency, simple .
+- **Disadvantages :** Security Vulnerabilities, Stability issue, Maintenance Difficulties.
+
+### 2. Micro Kernel :
+These types of kernels has simple approach, it has virtual memory & thread scheduling. It has less services in kernel space. It puts rest in user space.
+ - **Advantages :** Reliability, Flexibility , Modularity.
+ - **Disadvantages :** Low Performance, Complex ,Development Difficulty, Higher Resource Usage.
+
+ ### 3. Hybrid Kernel :
+ It is the combination of both monolithic kernel and microkernel. It has the speed and performance of monolithic kerner and modularity of microkernel.
+
+  - **Advantages :** Performance, Compatibility, Flexibility, Reliability.
+  - **Disadvantages :** Compeixity,less secure, Maintenance, Resource Usage.
+
+  ## 4. Exo Kernel :
+  These type of kernel which follows end-to-end principle. It has fewest hardware abstractions as possible. It allocates physical resources to applications.
+
+   - **Advantages:** Flexibility, Performance, Security, Modularity.
+   - **Disadvantages:** Complexity, Development Difficulty, Limited Support.
+
+   ### 5. Nano Kernel :
+   It is the type of kernel that offers hardware abstraction but without system services. Micro Kernel also does not have system services therefore the Micro Kernel and Nano Kernel have become analogous.
+   
+   - **Advantages :** small size, High Modularity, secure,Portability
+   - **Disadvantages :** Limited Functionality, Complexity, Performance, Compatibility
